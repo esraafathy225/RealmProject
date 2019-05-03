@@ -20,7 +20,9 @@ public class MainActivity extends AppCompatActivity {
     RealmService realmService;
     String comment="ريلم هى داتابيز مش sql و هى اسهل من room w sqlite بس عيبها الوحيد انها حجمها كبير " +
             "بتضيف للابلكيشن تقريبا 5 ميجا فلو عندى ابلكيشن صغير مفيهوش تفاصيل كتيرو مش عاوز اكبر حجمه على الفاضى" +
-            " ممكن استخدم room بس لو الابلكيشن كدة كدة كبير يبقي احسن استخدم realm لانها اسهل بكتير ككود " +
+            " ممكن استخدم room بس لو الابلكيشن كدة كدة كبير يبقي احسن استخدم realm لانها اسهل بكتير ككود" +
+            "هضيف لل gradle السطر دة apply plugin: 'realm-android'بس فوق خالص " +
+            "و هضيف لفولدر ال gradle الاولانى السطر دة           classpath \"io.realm:realm-gradle-plugin:3.1.4 " +
             "1. هنعمل ال table اللى هوة Contact " +
             "2. هنعمل كلاس فيه ال methods اللى بتعمل ال operations و هنسميه realmservice مثلا " +
             "3. بعد كدة بمنتهى السهولة كل activity هعمل اوبجكت من RealmService و انادى على الميثود اللى جواها" +
